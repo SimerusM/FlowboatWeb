@@ -27,13 +27,57 @@
   <link rel="stylesheet" href="../assets/css/bootstrap.css">
 
   <link rel="stylesheet" href="../assets/css/mobster.css">
+
+  <!-- CSS Styling -->
+  <style>
+    .container1 {
+      position: relative;
+      
+    }
+    
+    .image {
+      display: block;
+      width: 100%;
+      height: auto;
+    }
+    
+    .overlay {
+      position: absolute;
+      top: 0;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      height: 100%;
+      width: 100%;
+      opacity: 0;
+      transition: .5s ease;
+      background-color: #202527;
+    }
+    
+    .container1:hover .overlay {
+      opacity: 0.7;
+    }
+    
+    .text {
+      color: white;
+      font-size: 20px;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      -webkit-transform: translate(-50%, -50%);
+      -ms-transform: translate(-50%, -50%);
+      transform: translate(-50%, -50%);
+      text-align: center;
+    }
+  </style>
 </head>
 <body>
 
+<!-- NavBar Section -->
 <nav class="navbar navbar-expand-lg navbar-dark navbar-floating">
   <div class="container">
     <a class="navbar-brand" href="index.html">
-      <img src="../assets/img/flwwwwww.png" alt="" width="70">
+      <img src="assets/img/flwwwwww.png" alt="" width="70">
     </a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggler" aria-controls="navbarToggler" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
@@ -58,7 +102,8 @@
         </li>
       </ul>
       <div class="ml-auto my-2 my-lg-0">
-        <!-- <a href="https://omaratwa.typeform.com/to/DTJBzopt" target=”_blank” class="btn btn-primary rounded-pill" role="button">Apply Now</a>  -->
+        <!-- <button class="btn btn-primary rounded-pill" >Apply Now</button>  -->
+         <a href="https://omaratwa.typeform.com/to/DTJBzopt" target=”_blank” class="btn btn-primary rounded-pill" role="button">Apply Now</a> 
       </div>
     </div>
   </div>
@@ -84,24 +129,46 @@
   </div>
 </div>
 
-<div class="page-section pt-5">
+<div class="page-section pt-10">
   <div class="container">
     <div class="row justify-content-center">
-      <div class="col-lg-8">
+      <div class="col-lg-12">
         <div class="card-page">
-          <h5 style="font-family: 'DM Sans', sans-serif;" class="fg-primary">What's Flowboat?</h5>
+          <h3 style="font-family: 'DM Sans', sans-serif;" class="fg-primary">What's Flowboat?</h3>
           <hr>
-          <p>Flowboat is a youth startup organization in Waterloo where bright young minds come together to be creative with science and technology. Flowboat members can choose to focus on a variety of challenges to improve their skills in physics, computer science, business, environmental sustainability and anything their team chooses to tackle.</p>
-          <p>Each year, around 50 students across Waterloo Region form groups of 4-6 people to create an innovative solution to a real-world problem. Each newly formed company is provided with mentors, lessons, and feedback to prepare them for a variety of pitching competitions.
-          </p>
+          <p>The Flowboat Entrepreneurship Club is a student-founded organization based in Waterloo where bright young minds can bring their ideas to life. As one of the province’s leading startup incubators, Flowboat provides startups with all the resources they need to thrive, including mentors, lessons, grants, and feedback, effectively preparing them for various prestigious pitching competitions. At the end of the Flowboat season, teams will have developed the skills and knowledge they need to succeed in the entrepreneurial world.</p>
+          <p>Each year, around 50 high-school students across Waterloo region form groups of 4-6 people to create an innovative solution to a real-world problem. The timeline is from September to May and can continue to the next year to permit startups to continue growing and perfecting their product/service under the guidance of Flowboat’s outstanding program. Accelerating the ideas of tomorrow, this is Flowboat.</p>
 
           <!-- Video -->
           <div class="text-center py-5">
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/IwHGYcY6dSA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="max-width: 100%;"></iframe> 
+            <iframe width="600" height="330" src="https://www.youtube.com/embed/IwHGYcY6dSA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="max-width: 100%;"></iframe> 
     
           </div>
 
           <p>The timeline is from September to May and can continue to the next year to further grow their business and perfect their product. Built from the ground up for high school students, Flowboat is designed to provide today's youth with the entrepreneurship experience they need to tackle the problems of tomorrow.</p> 
+          <div class="container1 text-center py-5">
+            <a href="https://observerxtra.com/2022/07/07/its-not-business-as-usual-for-these-teens/">
+              <img alt="Article" src="assets/img/articleImg.jpg" width="600" height="450">
+            </a>
+            <a href="https://observerxtra.com/2022/07/07/its-not-business-as-usual-for-these-teens/">
+              <div class="overlay">
+                <div class="text">Click to view article</div>
+              </div>
+            </a>
+          </div>
+          </div>
+        </div>
+            
+        
+
+          <!-- <div class="container">
+            <a href="https://observerxtra.com/2022/07/07/its-not-business-as-usual-for-these-teens/">
+              <img alt="Article" src="assets/img/articleImg.jpg" width="600" height="450">
+            </a>
+            <div class="overlay">
+              <div class="text">Hello World</div>
+            </div>
+          </div> -->
           
         </div>
         <!-- <div class="card-page mt-3">
@@ -404,20 +471,11 @@
           <li><a class="">Waterloo, Ontario, Canada</a></li>
           <li><a class="">flowboatca@gmail.com</a></li>
           <!-- <li><a  class="">support@macodeid.com</a></li> -->
-          <li><a  class="">519 572 1253</a></li>
+          <li><a  class="">519 580 0963</a></li>
         </ul>
       </div>
       <div class="col-md-6 col-lg-4 py-3">
-        <h5 class="mb-3">Subscribe to Newsletter</h5>
-        <p></p>
-        <form method="POST">
-          <div class="input-group">
-            <input type="text" class="form-control" placeholder="Your email..">
-            <div class="input-group-append">
-              <button type="submit" class="btn btn-primary"><span class="mai-send"></span></button>
-            </div>
-          </div>
-        </form>
+        
 
       <!-- Social Media Button -->
       <div class="mt-4">
