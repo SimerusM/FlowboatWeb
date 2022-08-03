@@ -29,7 +29,6 @@
   <link rel="stylesheet" href="assets/css/mobster.css">
 
   <!-- CSS Styling -->
-  <link rel="stylesheet" href="assets/css/team.css">
   <link rel="stylesheet" href="assets/css/about.css">
 </head>
 <body>
