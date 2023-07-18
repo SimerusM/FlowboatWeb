@@ -235,6 +235,65 @@
 </div>
 
 <hr>
+<style>
+.owl-carousel {
+	margin: 0 auto;
+	padding: 30px 0;
+}
+
+.owl-carousel .owl-nav button.owl-prev,
+.owl-carousel .owl-nav button.owl-next {
+	z-index: 1;
+	width: 40px;
+	height: 75px;
+	background-color: #ccc;
+
+	position: absolute;
+	top: 50%;
+	transform: translatey(-40%);
+}
+
+.owl-nav button span {
+	font-size: 40px;
+	height: 100%;
+	display: block;
+	width: 100%;
+}
+.owl-carousel .owl-nav button.owl-prev {
+	left: 0;
+}
+.owl-carousel .owl-nav button.owl-next {
+	right: 0;
+}
+.owl-carousel .owl-nav {
+	margin: 0;
+}
+.btn-wrap {
+	text-align: center;
+	width: 100%;
+}
+button {
+	background-color: #ddd;
+	border: none;
+	padding: 10px 20px;
+	border-radius: 5px;
+	margin: 10px;
+	font-size: 18px;
+	font-weight: 600;
+	transition: all 0.5s;
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+	cursor: pointer;
+}
+.owl-theme .owl-nav .disabled,
+button.disabled {
+	opacity: 0.6;
+}
+
+
+</style>
+
 
 <!-- Testimonials -->
 <div class="mobile">
